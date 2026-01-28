@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('https://i.pinimg.com/736x/f5/80/4a/f5804acb19e11a6bad78b8c474de9b58.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(167, 25, 25, 0.425);
+    text-align: center;
+    min-width: 350px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+#numeroInicial {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: border-color 0.3s;
+}
+
+#numeroInicial:focus {
+    outline: none;
+    border-color: #002fff;
+}
+
+#btnIniciar {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background: #002fff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-weight: 600;
+}
+
+#btnIniciar:hover {
+    background: #041681;
+}
+
+#btnIniciar:active {
+    transform: scale(0.98);
+}
+
+#mostrador {
+    margin-top: 30px;
+    font-size: 72px;
+    font-weight: bold;
+    color: #001da0;
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
